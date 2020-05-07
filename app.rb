@@ -18,6 +18,7 @@ class App < Sinatra::Base
     say = @number.times do
       say += @phrase
     end
+    say
 
 
 end
